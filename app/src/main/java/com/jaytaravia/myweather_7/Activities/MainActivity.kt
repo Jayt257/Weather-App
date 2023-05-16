@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var fusedLocationProvider: FusedLocationProviderClient
     private val LOCATION_REQUEST_CODE = 101
 
-    private val apiKey="a68267ce63b61f8689cb2124d830b585"
+    private val apiKey=""
 
     private var mInterstitialAd: InterstitialAd?=null
 
@@ -182,7 +182,7 @@ class MainActivity : AppCompatActivity() {
         val adRequest= AdRequest.Builder().build()
 
         InterstitialAd.load(this,
-            "ca-app-pub-3940256099942544/1033173712",
+            "",
             adRequest,object :
             InterstitialAdLoadCallback(){
             override fun onAdFailedToLoad(p0: LoadAdError) {
